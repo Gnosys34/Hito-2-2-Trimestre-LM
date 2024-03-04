@@ -1,0 +1,2879 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos_Hito2_V2.dtd">
+<?xml-stylesheet type="text/xsl" href="pedidos_Hito2_prod_tri4_2022.xsl"?>
+<pedidos>
+  <!-- Año 2021 -->
+  <anio año="2021">
+    <!-- Trimestre 1 -->
+    <trimestre numero="1">
+      <!-- 10 pedidos (5 clientes recurrentes) -->
+      <!-- Pedido 1 -->
+      <pedido>
+        <!-- Detalles del cliente -->
+        <cliente>
+          <nombre>Maria</nombre>
+          <apellidos>Gomez</apellidos>
+          <telefono>987654321</telefono>
+          <direccion>
+            <calle>Avenida Principal</calle>
+            <ciudad>Madrid</ciudad>
+            <!-- Detalles del pedido -->
+            <!-- Detalles del pedido -->
+            <!-- Detalles del pedido -->
+            <codigo_postal>28001</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>maria.gomez@example.com</correo_electronico>
+          <fecha_inclusion>2021-01-05</fecha_inclusion>
+        </cliente>
+        <!-- Detalles del pedido -->
+        <detalle_pedido>
+          <numero_pedido>001</numero_pedido>
+          <fecha_compra>2021-01-10</fecha_compra>
+          <fecha_entrega>2021-01-25</fecha_entrega>
+          <total_factura>200.00</total_factura>
+          <!-- Productos -->
+          <productos>
+            <producto>
+              <nombre>Monitor ASUS</nombre>
+              <referencia>MON001</referencia>
+              <precio>150.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado Logitech</nombre>
+              <referencia>TEC002</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <pedido>
+        <cliente>
+          <nombre>Javier</nombre>
+          <apellidos>Ruiz</apellidos>
+          <telefono>654321987</telefono>
+          <direccion>
+            <calle>Calle Gran Vía</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08002</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>javier.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2021-01-08</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>002</numero_pedido>
+          <fecha_compra>2021-01-12</fecha_compra>
+          <fecha_entrega>2021-01-28</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT003</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Altavoces Logitech</nombre>
+              <referencia>ALT004</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <pedido>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>García</apellidos>
+          <telefono>876543210</telefono>
+          <direccion>
+            <calle>Calle Serrano</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28006</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>carlos.garcia@example.com</correo_electronico>
+          <fecha_inclusion>2020-12-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>010</numero_pedido>
+          <fecha_compra>2021-01-15</fecha_compra>
+          <fecha_entrega>2021-02-01</fecha_entrega>
+          <total_factura>180.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Teclado gaming</nombre>
+              <referencia>TEC011</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Mousepad XXL</nombre>
+              <referencia>MP012</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 3 -->
+      <pedido>
+        <cliente>
+          <nombre>Ana</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>789012345</telefono>
+          <direccion>
+            <calle>Calle Alcalá</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28009</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>ana.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2021-01-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>003</numero_pedido>
+          <fecha_compra>2021-01-15</fecha_compra>
+          <fecha_entrega>2021-01-30</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR004</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB005</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <pedido>
+        <cliente>
+          <nombre>Luis</nombre>
+          <apellidos>Ramírez</apellidos>
+          <telefono>876543210</telefono>
+          <direccion>
+            <calle>Rambla de Catalunya</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08007</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>luis.ramirez@example.com</correo_electronico>
+          <fecha_inclusion>2021-01-12</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>004</numero_pedido>
+          <fecha_compra>2021-01-18</fecha_compra>
+          <fecha_entrega>2021-02-02</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP006</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN007</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 5 -->
+      <pedido>
+        <cliente>
+          <nombre>Laura</nombre>
+          <apellidos>Martínez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>laura.martinez@example.com</correo_electronico>
+          <fecha_inclusion>2021-01-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>005</numero_pedido>
+          <fecha_compra>2021-01-25</fecha_compra>
+          <fecha_entrega>2021-02-09</fecha_entrega>
+          <total_factura>180.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>SSD 1TB</nombre>
+              <referencia>SSD008</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Router inalámbrico</nombre>
+              <referencia>ROUT009</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 6 -->
+      <pedido>
+        <cliente>
+          <nombre>Adrián</nombre>
+          <apellidos>Sánchez</apellidos>
+          <telefono>654321098</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>adrian.sanchez@example.com</correo_electronico>
+          <fecha_inclusion>2021-01-22</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>006</numero_pedido>
+          <fecha_compra>2021-01-28</fecha_compra>
+          <fecha_entrega>2021-02-13</fecha_entrega>
+          <total_factura>220.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora láser</nombre>
+              <referencia>IMP010</referencia>
+              <precio>120.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado mecánico</nombre>
+              <referencia>TEC011</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 7 -->
+      <pedido>
+        <cliente>
+          <nombre>Pablo</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Larios</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo_electronico>pablo.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2021-02-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>007</numero_pedido>
+          <fecha_compra>2021-02-05</fecha_compra>
+          <fecha_entrega>2021-02-20</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON012</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT013</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 8 -->
+      <pedido>
+        <cliente>
+          <nombre>Sofía</nombre>
+          <apellidos>Navarro</apellidos>
+          <telefono>678901234</telefono>
+          <direccion>
+            <calle>Gran Via de les Corts Catalanes</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08010</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>sofia.navarro@example.com</correo_electronico>
+          <fecha_inclusion>2021-02-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>008</numero_pedido>
+          <fecha_compra>2021-02-15</fecha_compra>
+          <fecha_entrega>2021-03-02</fecha_entrega>
+          <total_factura>100.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares inalámbricos</nombre>
+              <referencia>AUR014</referencia>
+              <precio>60.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Webcam HD</nombre>
+              <referencia>WEB015</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 9 -->
+      <pedido>
+        <cliente>
+          <nombre>Miguel</nombre>
+          <apellidos>Gómez</apellidos>
+          <telefono>789012345</telefono>
+          <direccion>
+            <calle>Calle Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>miguel.gomez@example.com</correo_electronico>
+          <fecha_inclusion>2021-02-18</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>009</numero_pedido>
+          <fecha_compra>2021-02-22</fecha_compra>
+          <fecha_entrega>2021-03-09</fecha_entrega>
+          <total_factura>90.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Mousepad RGB</nombre>
+              <referencia>MP016</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cámara de seguridad</nombre>
+              <referencia>CAM017</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+    </trimestre>
+    <trimestre numero="2">
+      <!-- Pedido 1 -->
+      <pedido>
+        <cliente>
+          <nombre>Isabel</nombre>
+          <apellidos>Ortega</apellidos>
+          <telefono>654321098</telefono>
+          <direccion>
+            <calle>Paseo de la Castellana</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28046</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>isabel.ortega@example.com</correo_electronico>
+          <fecha_inclusion>2021-04-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>011</numero_pedido>
+          <fecha_compra>2021-04-05</fecha_compra>
+          <fecha_entrega>2021-04-20</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Teclado inalámbrico</nombre>
+              <referencia>TEC012</referencia>
+              <precio>70.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón ergonómico</nombre>
+              <referencia>RAT013</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 2 -->
+      <pedido>
+        <cliente>
+          <nombre>Javier</nombre>
+          <apellidos>Ruiz</apellidos>
+          <telefono>654321987</telefono>
+          <direccion>
+            <calle>Calle Gran Vía</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08002</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>javier.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2021-04-08</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>012</numero_pedido>
+          <fecha_compra>2021-04-12</fecha_compra>
+          <fecha_entrega>2021-04-28</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT013</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Altavoces Logitech</nombre>
+              <referencia>ALT014</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 3 -->
+      <pedido>
+        <cliente>
+          <nombre>Ana</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>789012345</telefono>
+          <direccion>
+            <calle>Calle Alcalá</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28009</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>ana.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2021-04-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>013</numero_pedido>
+          <fecha_compra>2021-04-15</fecha_compra>
+          <fecha_entrega>2021-04-30</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR015</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB016</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 4 -->
+      <pedido>
+        <cliente>
+          <nombre>Luis</nombre>
+          <apellidos>Ramírez</apellidos>
+          <telefono>876543210</telefono>
+          <direccion>
+            <calle>Rambla de Catalunya</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08007</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>luis.ramirez@example.com</correo_electronico>
+          <fecha_inclusion>2021-04-12</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>014</numero_pedido>
+          <fecha_compra>2021-04-18</fecha_compra>
+          <fecha_entrega>2021-05-02</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP017</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN018</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 5 -->
+      <pedido>
+        <cliente>
+          <nombre>Laura</nombre>
+          <apellidos>Martínez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>laura.martinez@example.com</correo_electronico>
+          <fecha_inclusion>2021-04-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>015</numero_pedido>
+          <fecha_compra>2021-04-25</fecha_compra>
+          <fecha_entrega>2021-05-10</fecha_entrega>
+          <total_factura>180.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>SSD 1TB</nombre>
+              <referencia>SSD019</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Router inalámbrico</nombre>
+              <referencia>ROUT020</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 6 -->
+      <pedido>
+        <cliente>
+          <nombre>Adrián</nombre>
+          <apellidos>Sánchez</apellidos>
+          <telefono>654321098</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>adrian.sanchez@example.com</correo_electronico>
+          <fecha_inclusion>2021-04-22</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>016</numero_pedido>
+          <fecha_compra>2021-04-28</fecha_compra>
+          <fecha_entrega>2021-05-13</fecha_entrega>
+          <total_factura>220.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora láser</nombre>
+              <referencia>IMP021</referencia>
+              <precio>120.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado mecánico</nombre>
+              <referencia>TEC022</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 7 -->
+      <pedido>
+        <cliente>
+          <nombre>Pablo</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Larios</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo_electronico>pablo.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2021-05-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>017</numero_pedido>
+          <fecha_compra>2021-05-05</fecha_compra>
+          <fecha_entrega>2021-05-20</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON023</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT024</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 8 -->
+      <pedido>
+        <cliente>
+          <nombre>Sofía</nombre>
+          <apellidos>Navarro</apellidos>
+          <telefono>678901234</telefono>
+          <direccion>
+            <calle>Gran Via de les Corts Catalanes</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08010</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>sofia.navarro@example.com</correo_electronico>
+          <fecha_inclusion>2021-05-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>018</numero_pedido>
+          <fecha_compra>2021-05-15</fecha_compra>
+          <fecha_entrega>2021-06-01</fecha_entrega>
+          <total_factura>100.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares inalámbricos</nombre>
+              <referencia>AUR025</referencia>
+              <precio>60.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Webcam HD</nombre>
+              <referencia>WEB026</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 9 -->
+      <pedido>
+        <cliente>
+          <nombre>Miguel</nombre>
+          <apellidos>Gómez</apellidos>
+          <telefono>789012345</telefono>
+          <direccion>
+            <calle>Calle Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>miguel.gomez@example.com</correo_electronico>
+          <fecha_inclusion>2021-05-18</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>019</numero_pedido>
+          <fecha_compra>2021-05-22</fecha_compra>
+          <fecha_entrega>2021-06-09</fecha_entrega>
+          <total_factura>90.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Mousepad RGB</nombre>
+              <referencia>MP027</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cámara de seguridad</nombre>
+              <referencia>CAM028</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 10 -->
+      <pedido>
+        <cliente>
+          <nombre>Daniel</nombre>
+          <apellidos>Jiménez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>daniel.jimenez@example.com</correo_electronico>
+          <fecha_inclusion>2021-04-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>020</numero_pedido>
+          <fecha_compra>2021-04-20</fecha_compra>
+          <fecha_entrega>2021-05-05</fecha_entrega>
+          <total_factura>180.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cancelación de ruido</nombre>
+              <referencia>AUR021</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Hub USB-C</nombre>
+              <referencia>HUB022</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+    </trimestre>
+    <trimestre numero="3">
+      <!-- Pedido 1 -->
+      <pedido>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>García</apellidos>
+          <telefono>876543210</telefono>
+          <direccion>
+            <calle>Calle Serrano</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28006</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>carlos.garcia@example.com</correo_electronico>
+          <fecha_inclusion>2021-07-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>021</numero_pedido>
+          <fecha_compra>2021-07-05</fecha_compra>
+          <fecha_entrega>2021-07-20</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON022</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT023</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 2 -->
+      <pedido>
+        <cliente>
+          <nombre>Marta</nombre>
+          <apellidos>González</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Plaza Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28012</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>marta.gonzalez@example.com</correo_electronico>
+          <fecha_inclusion>2021-07-08</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>022</numero_pedido>
+          <fecha_compra>2021-07-12</fecha_compra>
+          <fecha_entrega>2021-07-28</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT023</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Altavoces Logitech</nombre>
+              <referencia>ALT024</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 3 -->
+      <pedido>
+        <cliente>
+          <nombre>Antonio</nombre>
+          <apellidos>López</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>antonio.lopez@example.com</correo_electronico>
+          <fecha_inclusion>2021-07-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>023</numero_pedido>
+          <fecha_compra>2021-07-15</fecha_compra>
+          <fecha_entrega>2021-07-30</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR025</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB026</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 4 -->
+      <pedido>
+        <cliente>
+          <nombre>Elena</nombre>
+          <apellidos>Martínez</apellidos>
+          <telefono>654321098</telefono>
+          <direccion>
+            <calle>Rambla de Catalunya</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08007</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>elena.martinez@example.com</correo_electronico>
+          <fecha_inclusion>2021-07-12</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>024</numero_pedido>
+          <fecha_compra>2021-07-18</fecha_compra>
+          <fecha_entrega>2021-08-02</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP027</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN028</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 5 -->
+      <pedido>
+        <cliente>
+          <nombre>Pablo</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Calle Larios</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo_electronico>pablo.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2021-08-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>025</numero_pedido>
+          <fecha_compra>2021-08-05</fecha_compra>
+          <fecha_entrega>2021-08-20</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON029</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT030</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 6 -->
+      <pedido>
+        <cliente>
+          <nombre>Luisa</nombre>
+          <apellidos>Ramírez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>luisa.ramirez@example.com</correo_electronico>
+          <fecha_inclusion>2021-08-08</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>026</numero_pedido>
+          <fecha_compra>2021-08-12</fecha_compra>
+          <fecha_entrega>2021-08-28</fecha_entrega>
+          <total_factura>180.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cancelación de ruido</nombre>
+              <referencia>AUR031</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Hub USB-C</nombre>
+              <referencia>HUB032</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 7 -->
+      <pedido>
+        <cliente>
+          <nombre>Daniel</nombre>
+          <apellidos>Jiménez</apellidos>
+          <telefono>678901234</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>daniel.jimenez@example.com</correo_electronico>
+          <fecha_inclusion>2021-08-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>027</numero_pedido>
+          <fecha_compra>2021-08-15</fecha_compra>
+          <fecha_entrega>2021-08-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Teclado inalámbrico</nombre>
+              <referencia>TEC033</referencia>
+              <precio>70.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón ergonómico</nombre>
+              <referencia>RAT034</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 8 -->
+      <pedido>
+        <cliente>
+          <nombre>Miguel</nombre>
+          <apellidos>Gómez</apellidos>
+          <telefono>543210987</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>miguel.gomez@example.com</correo_electronico>
+          <fecha_inclusion>2021-08-12</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>028</numero_pedido>
+          <fecha_compra>2021-08-18</fecha_compra>
+          <fecha_entrega>2021-09-02</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>SSD 1TB</nombre>
+              <referencia>SSD035</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Router inalámbrico</nombre>
+              <referencia>ROUT036</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 9 -->
+      <pedido>
+        <cliente>
+          <nombre>Ana</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>678901234</telefono>
+          <direccion>
+            <calle>Calle Alcalá</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28009</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>ana.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2021-08-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>029</numero_pedido>
+          <fecha_compra>2021-08-20</fecha_compra>
+          <fecha_entrega>2021-09-05</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares inalámbricos</nombre>
+              <referencia>AUR037</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Webcam HD</nombre>
+              <referencia>WEB038</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 10 -->
+      <pedido>
+        <cliente>
+          <nombre>Sofía</nombre>
+          <apellidos>Navarro</apellidos>
+          <telefono>678901234</telefono>
+          <direccion>
+            <calle>Gran Via de les Corts Catalanes</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08010</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>sofia.navarro@example.com</correo_electronico>
+          <fecha_inclusion>2021-07-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>030</numero_pedido>
+          <fecha_compra>2021-07-20</fecha_compra>
+          <fecha_entrega>2021-08-02</fecha_entrega>
+          <total_factura>100.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares inalámbricos</nombre>
+              <referencia>AUR031</referencia>
+              <precio>60.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Webcam HD</nombre>
+              <referencia>WEB032</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+    </trimestre>
+    <trimestre numero="4">
+      <!-- Pedido 1 -->
+      <pedido>
+        <cliente>
+          <nombre>María</nombre>
+          <apellidos>Gómez</apellidos>
+          <telefono>876543210</telefono>
+          <direccion>
+            <calle>Gran Vía</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>maria.gomez@example.com</correo_electronico>
+          <fecha_inclusion>2021-10-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>031</numero_pedido>
+          <fecha_compra>2021-10-05</fecha_compra>
+          <fecha_entrega>2021-10-20</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT032</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Altavoces Logitech</nombre>
+              <referencia>ALT033</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 2 -->
+      <pedido>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>789012345</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>carlos.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2021-10-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>032</numero_pedido>
+          <fecha_compra>2021-10-10</fecha_compra>
+          <fecha_entrega>2021-10-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR034</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB035</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 3 -->
+      <pedido>
+        <cliente>
+          <nombre>Laura</nombre>
+          <apellidos>Ramírez</apellidos>
+          <telefono>654321098</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>laura.ramirez@example.com</correo_electronico>
+          <fecha_inclusion>2021-10-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>033</numero_pedido>
+          <fecha_compra>2021-10-15</fecha_compra>
+          <fecha_entrega>2021-10-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP036</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN037</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 4 -->
+      <pedido>
+        <cliente>
+          <nombre>Ana</nombre>
+          <apellidos>Gutiérrez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Rambla de Catalunya</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08007</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>ana.gutierrez@example.com</correo_electronico>
+          <fecha_inclusion>2021-10-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>034</numero_pedido>
+          <fecha_compra>2021-10-20</fecha_compra>
+          <fecha_entrega>2021-11-04</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON038</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT039</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 6 -->
+      <pedido>
+        <cliente>
+          <nombre>Elena</nombre>
+          <apellidos>Martínez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>elena.martinez@example.com</correo_electronico>
+          <fecha_inclusion>2021-12-25</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>037</numero_pedido>
+          <fecha_compra>2021-12-30</fecha_compra>
+          <fecha_entrega>2022-01-14</fecha_entrega>
+          <total_factura>180.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cancelación de ruido</nombre>
+              <referencia>AUR041</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Hub USB-C</nombre>
+              <referencia>HUB042</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 7 -->
+      <pedido>
+        <cliente>
+          <nombre>Pablo</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Larios</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo_electronico>pablo.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>038</numero_pedido>
+          <fecha_compra>2022-01-05</fecha_compra>
+          <fecha_entrega>2022-01-20</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON043</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT044</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 8 -->
+      <pedido>
+        <cliente>
+          <nombre>Luisa</nombre>
+          <apellidos>Ramírez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Rambla de Catalunya</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08007</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>luisa.ramirez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>039</numero_pedido>
+          <fecha_compra>2022-01-10</fecha_compra>
+          <fecha_entrega>2022-01-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR045</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB046</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 9 -->
+      <pedido>
+        <cliente>
+          <nombre>Ana</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Alcalá</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28009</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>ana.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>040</numero_pedido>
+          <fecha_compra>2022-01-15</fecha_compra>
+          <fecha_entrega>2022-01-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP047</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN048</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 10 -->
+      <pedido>
+        <cliente>
+          <nombre>Miguel</nombre>
+          <apellidos>Ruiz</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Calle Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>miguel.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2021-12-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>031</numero_pedido>
+          <fecha_compra>2021-12-20</fecha_compra>
+          <fecha_entrega>2022-01-05</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON041</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT042</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+    </trimestre>
+  </anio>
+  <!-- Año 2022 -->
+  <anio año="2022">
+    <!-- Trimestre 1 -->
+    <trimestre numero="1">
+      <!-- Pedido 1 -->
+      <pedido>
+        <cliente>
+          <nombre>Isabel</nombre>
+          <apellidos>López</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Plaza Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28012</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>isabel.lopez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>001</numero_pedido>
+          <fecha_compra>2022-01-05</fecha_compra>
+          <fecha_entrega>2022-01-20</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT001</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Altavoces Logitech</nombre>
+              <referencia>ALT002</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 2 -->
+      <pedido>
+        <cliente>
+          <nombre>Francisco</nombre>
+          <apellidos>González</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>francisco.gonzalez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>002</numero_pedido>
+          <fecha_compra>2022-01-10</fecha_compra>
+          <fecha_entrega>2022-01-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR003</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB004</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 3 -->
+      <pedido>
+        <cliente>
+          <nombre>Laura</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Rambla de Catalunya</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08007</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>laura.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>003</numero_pedido>
+          <fecha_compra>2022-01-15</fecha_compra>
+          <fecha_entrega>2022-01-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP005</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN006</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 4 -->
+      <pedido>
+        <cliente>
+          <nombre>Antonio</nombre>
+          <apellidos>Ramírez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>antonio.ramirez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>004</numero_pedido>
+          <fecha_compra>2022-01-20</fecha_compra>
+          <fecha_entrega>2022-02-05</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON007</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT008</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 5 -->
+      <pedido>
+        <cliente>
+          <nombre>Maria</nombre>
+          <apellidos>Gómez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Calle Serrano</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28006</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>maria.gomez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>005</numero_pedido>
+          <fecha_compra>2022-01-25</fecha_compra>
+          <fecha_entrega>2022-02-09</fecha_entrega>
+          <total_factura>180.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cancelación de ruido</nombre>
+              <referencia>AUR009</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Hub USB-C</nombre>
+              <referencia>HUB010</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 6 -->
+      <pedido>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>carlos.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-25</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>006</numero_pedido>
+          <fecha_compra>2022-01-30</fecha_compra>
+          <fecha_entrega>2022-02-14</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT011</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Altavoces Logitech</nombre>
+              <referencia>ALT012</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 7 -->
+      <pedido>
+        <cliente>
+          <nombre>Ana</nombre>
+          <apellidos>Martínez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>ana.martinez@example.com</correo_electronico>
+          <fecha_inclusion>2022-02-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>007</numero_pedido>
+          <fecha_compra>2022-02-05</fecha_compra>
+          <fecha_entrega>2022-02-20</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR013</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB014</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 8 -->
+      <pedido>
+        <cliente>
+          <nombre>Pablo</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Rambla de Catalunya</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08007</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>pablo.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2022-02-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>008</numero_pedido>
+          <fecha_compra>2022-02-10</fecha_compra>
+          <fecha_entrega>2022-02-25</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP015</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN016</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 9 -->
+      <pedido>
+        <cliente>
+          <nombre>Ana</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Alcalá</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28009</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>ana.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>040</numero_pedido>
+          <fecha_compra>2022-01-15</fecha_compra>
+          <fecha_entrega>2022-01-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP047</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN048</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 10 -->
+      <pedido>
+        <cliente>
+          <nombre>Mario</nombre>
+          <apellidos>López</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Gran Vía</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>mario.lopez@example.com</correo_electronico>
+          <fecha_inclusion>2022-01-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>042</numero_pedido>
+          <fecha_compra>2022-01-25</fecha_compra>
+          <fecha_entrega>2022-02-09</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON044</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT045</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+    </trimestre>
+    <!-- Trimestre 2 del Año 2022 -->
+    <trimestre numero="2">
+      <!-- Pedido 1 -->
+      <pedido>
+        <cliente>
+          <nombre>Laura</nombre>
+          <apellidos>Gómez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Gran Via de les Corts Catalanes</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08010</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>laura.gomez@example.com</correo_electronico>
+          <fecha_inclusion>2022-04-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>043</numero_pedido>
+          <fecha_compra>2022-04-05</fecha_compra>
+          <fecha_entrega>2022-04-20</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT054</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Altavoces Logitech</nombre>
+              <referencia>ALT055</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 2 -->
+      <pedido>
+        <cliente>
+          <nombre>Pablo</nombre>
+          <apellidos>Alvarez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>pablo.alvarez@example.com</correo_electronico>
+          <fecha_inclusion>2022-04-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>044</numero_pedido>
+          <fecha_compra>2022-04-10</fecha_compra>
+          <fecha_entrega>2022-04-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR056</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB057</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 3 -->
+      <pedido>
+        <cliente>
+          <nombre>Elena</nombre>
+          <apellidos>Martínez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>elena.martinez@example.com</correo_electronico>
+          <fecha_inclusion>2022-04-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>045</numero_pedido>
+          <fecha_compra>2022-04-15</fecha_compra>
+          <fecha_entrega>2022-04-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP058</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN059</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 4 -->
+      <pedido>
+        <cliente>
+          <nombre>Andrés</nombre>
+          <apellidos>Ruiz</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Calle Serrano</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28006</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>andres.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2022-04-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>046</numero_pedido>
+          <fecha_compra>2022-04-20</fecha_compra>
+          <fecha_entrega>2022-05-05</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON060</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT061</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 5 -->
+      <pedido>
+        <cliente>
+          <nombre>Adriana</nombre>
+          <apellidos>Ruiz</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Gran Via de les Corts Catalanes</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08010</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>adriana.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2022-04-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>047</numero_pedido>
+          <fecha_compra>2022-04-25</fecha_compra>
+          <fecha_entrega>2022-05-10</fecha_entrega>
+          <total_factura>100.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cable</nombre>
+              <referencia>AUR062</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón básico</nombre>
+              <referencia>RAT063</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 6 -->
+      <pedido>
+        <cliente>
+          <nombre>Miguel</nombre>
+          <apellidos>González</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Calle Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>miguel.gonzalez@example.com</correo_electronico>
+          <fecha_inclusion>2022-05-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>048</numero_pedido>
+          <fecha_compra>2022-05-05</fecha_compra>
+          <fecha_entrega>2022-05-20</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón ergonómico</nombre>
+              <referencia>RAT064</referencia>
+              <precio>70.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado inalámbrico</nombre>
+              <referencia>TEC065</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 7 -->
+      <pedido>
+        <cliente>
+          <nombre>Sofía</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>sofia.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2022-05-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>049</numero_pedido>
+          <fecha_compra>2022-05-10</fecha_compra>
+          <fecha_entrega>2022-05-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR066</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable HDMI</nombre>
+              <referencia>CAB067</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 8 -->
+      <pedido>
+        <cliente>
+          <nombre>Javier</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Calle Gran Vía</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>javier.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2022-05-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>050</numero_pedido>
+          <fecha_compra>2022-05-15</fecha_compra>
+          <fecha_entrega>2022-05-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT068</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado mecánico</nombre>
+              <referencia>TEC069</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 9 -->
+      <pedido>
+        <cliente>
+          <nombre>Paula</nombre>
+          <apellidos>Ruíz</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>paula.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2022-05-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>051</numero_pedido>
+          <fecha_compra>2022-05-20</fecha_compra>
+          <fecha_entrega>2022-06-04</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON070</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT071</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 10 -->
+      <pedido>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>Ramírez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>carlos.ramirez@example.com</correo_electronico>
+          <fecha_inclusion>2022-04-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>051</numero_pedido>
+          <fecha_compra>2022-04-20</fecha_compra>
+          <fecha_entrega>2022-05-05</fecha_entrega>
+          <total_factura>180.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cancelación de ruido</nombre>
+              <referencia>AUR052</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Hub USB-C</nombre>
+              <referencia>HUB053</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+    </trimestre>
+    <!-- Trimestre 2 del Año 2022 -->
+    <trimestre numero="3">
+      <!-- Pedido 1 -->
+      <pedido>
+        <cliente>
+          <nombre>Daniel</nombre>
+          <apellidos>Sanchez</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Gran Vía</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>daniel.sanchez@example.com</correo_electronico>
+          <fecha_inclusion>2022-07-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>052</numero_pedido>
+          <fecha_compra>2022-07-05</fecha_compra>
+          <fecha_entrega>2022-07-20</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT073</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Altavoces Logitech</nombre>
+              <referencia>ALT074</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 2 -->
+      <pedido>
+        <cliente>
+          <nombre>Ana</nombre>
+          <apellidos>Martínez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>ana.martinez@example.com</correo_electronico>
+          <fecha_inclusion>2022-07-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>053</numero_pedido>
+          <fecha_compra>2022-07-10</fecha_compra>
+          <fecha_entrega>2022-07-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR075</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB076</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 3 -->
+      <pedido>
+        <cliente>
+          <nombre>Lucía</nombre>
+          <apellidos>García</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>lucia.garcia@example.com</correo_electronico>
+          <fecha_inclusion>2022-07-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>054</numero_pedido>
+          <fecha_compra>2022-07-15</fecha_compra>
+          <fecha_entrega>2022-07-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP077</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN078</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 4 -->
+      <pedido>
+        <cliente>
+          <nombre>Diego</nombre>
+          <apellidos>Juárez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Serrano</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28006</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>diego.juarez@example.com</correo_electronico>
+          <fecha_inclusion>2022-07-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>055</numero_pedido>
+          <fecha_compra>2022-07-20</fecha_compra>
+          <fecha_entrega>2022-08-04</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON079</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT080</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 5 -->
+      <pedido>
+        <cliente>
+          <nombre>Valeria</nombre>
+          <apellidos>Ruiz</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>valeria.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2022-07-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>056</numero_pedido>
+          <fecha_compra>2022-07-25</fecha_compra>
+          <fecha_entrega>2022-08-09</fecha_entrega>
+          <total_factura>100.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cable</nombre>
+              <referencia>AUR081</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón básico</nombre>
+              <referencia>RAT082</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 6 -->
+      <pedido>
+        <cliente>
+          <nombre>Manuel</nombre>
+          <apellidos>González</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>manuel.gonzalez@example.com</correo_electronico>
+          <fecha_inclusion>2022-08-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>057</numero_pedido>
+          <fecha_compra>2022-08-05</fecha_compra>
+          <fecha_entrega>2022-08-20</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón ergonómico</nombre>
+              <referencia>RAT083</referencia>
+              <precio>70.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado inalámbrico</nombre>
+              <referencia>TEC084</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 7 -->
+      <pedido>
+        <cliente>
+          <nombre>Camila</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>camila.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2022-08-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>058</numero_pedido>
+          <fecha_compra>2022-08-10</fecha_compra>
+          <fecha_entrega>2022-08-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR085</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable HDMI</nombre>
+              <referencia>CAB086</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 8 -->
+      <pedido>
+        <cliente>
+          <nombre>Isaac</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Gran Vía</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>isaac.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2022-08-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>059</numero_pedido>
+          <fecha_compra>2022-08-15</fecha_compra>
+          <fecha_entrega>2022-08-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT087</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado mecánico</nombre>
+              <referencia>TEC088</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 9 -->
+      <pedido>
+        <cliente>
+          <nombre>Carla</nombre>
+          <apellidos>Ruíz</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>carla.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2022-08-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>060</numero_pedido>
+          <fecha_compra>2022-08-20</fecha_compra>
+          <fecha_entrega>2022-09-04</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON089</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT090</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 10 -->
+      <pedido>
+        <cliente>
+          <nombre>Marta</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>marta.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2022-08-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>061</numero_pedido>
+          <fecha_compra>2022-08-25</fecha_compra>
+          <fecha_entrega>2022-09-09</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón ergonómico</nombre>
+              <referencia>RAT091</referencia>
+              <precio>70.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado inalámbrico</nombre>
+              <referencia>TEC092</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+    </trimestre>
+    <trimestre numero="4">
+      <!-- Pedido 1 -->
+      <pedido>
+        <cliente>
+          <nombre>Alejandro</nombre>
+          <apellidos>Ruíz</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>alejandro.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2022-10-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>062</numero_pedido>
+          <fecha_compra>2022-10-05</fecha_compra>
+          <fecha_entrega>2022-10-20</fecha_entrega>
+          <total_factura>100.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cable</nombre>
+              <referencia>AUR093</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón básico</nombre>
+              <referencia>RAT094</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 2 -->
+      <pedido>
+        <cliente>
+          <nombre>Sara</nombre>
+          <apellidos>Martínez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>sara.martinez@example.com</correo_electronico>
+          <fecha_inclusion>2022-10-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>063</numero_pedido>
+          <fecha_compra>2022-10-10</fecha_compra>
+          <fecha_entrega>2022-10-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR095</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable USB-C</nombre>
+              <referencia>CAB096</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 3 -->
+      <pedido>
+        <cliente>
+          <nombre>Mario</nombre>
+          <apellidos>García</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>mario.garcia@example.com</correo_electronico>
+          <fecha_inclusion>2022-10-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>064</numero_pedido>
+          <fecha_compra>2022-10-15</fecha_compra>
+          <fecha_entrega>2022-10-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Impresora multifunción</nombre>
+              <referencia>IMP097</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Pendrive 64GB</nombre>
+              <referencia>PEN098</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 4 -->
+      <pedido>
+        <cliente>
+          <nombre>Isabel</nombre>
+          <apellidos>Juárez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Serrano</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28006</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>isabel.juarez@example.com</correo_electronico>
+          <fecha_inclusion>2022-10-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>065</numero_pedido>
+          <fecha_compra>2022-10-20</fecha_compra>
+          <fecha_entrega>2022-11-04</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON099</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT100</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 5 -->
+      <pedido>
+        <cliente>
+          <nombre>Marina</nombre>
+          <apellidos>Ruíz</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>marina.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2022-10-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>066</numero_pedido>
+          <fecha_compra>2022-10-25</fecha_compra>
+          <fecha_entrega>2022-11-09</fecha_entrega>
+          <total_factura>100.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares con cable</nombre>
+              <referencia>AUR101</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón básico</nombre>
+              <referencia>RAT102</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 6 -->
+      <pedido>
+        <cliente>
+          <nombre>Javier</nombre>
+          <apellidos>González</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Mayor</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>javier.gonzalez@example.com</correo_electronico>
+          <fecha_inclusion>2022-11-01</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>067</numero_pedido>
+          <fecha_compra>2022-11-05</fecha_compra>
+          <fecha_entrega>2022-11-20</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón ergonómico</nombre>
+              <referencia>RAT103</referencia>
+              <precio>70.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado inalámbrico</nombre>
+              <referencia>TEC104</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 7 -->
+      <pedido>
+        <cliente>
+          <nombre>Carmen</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Paseo de Gracia</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08008</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>carmen.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2022-11-05</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>068</numero_pedido>
+          <fecha_compra>2022-11-10</fecha_compra>
+          <fecha_entrega>2022-11-25</fecha_entrega>
+          <total_factura>80.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Auriculares Bluetooth</nombre>
+              <referencia>AUR105</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Cable HDMI</nombre>
+              <referencia>CAB106</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 8 -->
+      <pedido>
+        <cliente>
+          <nombre>Adrián</nombre>
+          <apellidos>Rodríguez</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Calle Gran Vía</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo_electronico>adrian.rodriguez@example.com</correo_electronico>
+          <fecha_inclusion>2022-11-10</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>069</numero_pedido>
+          <fecha_compra>2022-11-15</fecha_compra>
+          <fecha_entrega>2022-11-30</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón gaming</nombre>
+              <referencia>RAT107</referencia>
+              <precio>80.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado mecánico</nombre>
+              <referencia>TEC108</referencia>
+              <precio>40.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 9 -->
+      <pedido>
+        <cliente>
+          <nombre>Lucía</nombre>
+          <apellidos>Ruíz</apellidos>
+          <telefono>765432109</telefono>
+          <direccion>
+            <calle>Ronda Sant Pau</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>lucia.ruiz@example.com</correo_electronico>
+          <fecha_inclusion>2022-11-15</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>070</numero_pedido>
+          <fecha_compra>2022-11-20</fecha_compra>
+          <fecha_entrega>2022-12-05</fecha_entrega>
+          <total_factura>150.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Monitor LG</nombre>
+              <referencia>MON109</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Ratón inalámbrico</nombre>
+              <referencia>RAT110</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+      <!-- Pedido 10 -->
+      <pedido>
+        <cliente>
+          <nombre>Mónica</nombre>
+          <apellidos>Fernández</apellidos>
+          <telefono>890123456</telefono>
+          <direccion>
+            <calle>Avenida Diagonal</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08019</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo_electronico>monica.fernandez@example.com</correo_electronico>
+          <fecha_inclusion>2022-11-20</fecha_inclusion>
+        </cliente>
+        <detalle_pedido>
+          <numero_pedido>071</numero_pedido>
+          <fecha_compra>2022-11-25</fecha_compra>
+          <fecha_entrega>2022-12-10</fecha_entrega>
+          <total_factura>120.00</total_factura>
+          <productos>
+            <producto>
+              <nombre>Ratón ergonómico</nombre>
+              <referencia>RAT111</referencia>
+              <precio>70.00</precio>
+              <unidades>1</unidades>
+            </producto>
+            <producto>
+              <nombre>Teclado inalámbrico</nombre>
+              <referencia>TEC112</referencia>
+              <precio>50.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detalle_pedido>
+      </pedido>
+    </trimestre>
+  </anio>
+</pedidos>
